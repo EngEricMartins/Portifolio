@@ -1,0 +1,38 @@
+/* utility fonts */
+.title-lg {
+  font: var(--title-lg);
+}
+.title-md {
+  font: var(--title-md);
+  color: var(--gray-600)
+}
+.title-sm {
+  font: var(--title-sm);
+  color: var(--gray-600);
+}
+
+.subtitle {
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+.text-md {
+  font: var(--text-md);
+  color: var(--gray-500);
+}
+.text-sm {
+  font: var(--text-sm);
+  color: var(--gray-500);
+}
+/* ****************************** */
+
+/* utility flex column */
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
