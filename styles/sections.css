@@ -111,7 +111,7 @@ header {
 
   figure {
     display: grid;
-    grid-template-columns: repeat(2, 0fr);
+    grid-template-columns: repeat(3, 1fr);
     row-gap: 50px;
     column-gap: 50px;
     max-width: 1040px;
