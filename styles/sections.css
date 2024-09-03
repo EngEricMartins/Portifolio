@@ -125,7 +125,7 @@ header {
       border-radius: 12px;
 
       &:hover {
-        border: solid 1px var(--gray-400);
+        outline: solid 1px var(--gray-400);
       }
 
 
@@ -263,7 +263,7 @@ header {
   }
 
   #linkedim:hover {
-    border: solid 1px var(--blue);
+    outline: solid 1px var(--blue);
     background-image: url(../assets/icons/Social/linkedim-ho.png);
     background-repeat: no-repeat;
     background-position-x: 25px;
@@ -275,7 +275,7 @@ header {
   }
 
   #github:hover {
-    border: solid 1px var(--blue);
+    outline: solid 1px var(--blue);
     background-image: url(../assets/icons/Social/github-ho.png);
     background-repeat: no-repeat;
     background-position-x: 25px;
@@ -287,7 +287,7 @@ header {
   }
 
   #email:hover {
-    border: solid 1px var(--blue);
+    outline: solid 1px var(--blue);
     background-image: url(../assets/icons/Social/email-ho.png);
     background-repeat: no-repeat;
     background-position-x: 25px;
