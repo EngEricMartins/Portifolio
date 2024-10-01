@@ -61,7 +61,7 @@ header {
   #tag {
     display: flex;
     justify-content: space-between;
-    gap: 16px;
+    gap: 1rem;
 
     span {
       display: flex;
@@ -114,14 +114,14 @@ header {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 50px;
     column-gap: 50px;
-    max-width: 1040px;
-    max-height: 584px;
+    width: 1040px;
+    height: auto;
 
     figcaption {
       position: relative;
       background-color: var(--gray-300);
-      max-width: 330px;
-      max-height: 280px;
+      width: 330px;
+      height: 280px;
       border-radius: 12px;
 
       &:hover {
@@ -180,8 +180,8 @@ header {
     grid-template-areas:
       "figcaption figcaption figcaption";
     gap: 24px;
-    max-width: 888px;
-    max-height: 155px;
+    width: 888px;
+    height: 155px;
 
     figcaption {
       display: grid;
@@ -299,4 +299,50 @@ header {
   }
 
 
+}
+
+@media (width <= 31.25em) {
+  header {
+    padding-inline: 1rem;
+    & #profile {
+      width: 22.5rem;
+      & h4 {
+        margin-bottom: 1rem;
+      }
+      & p {
+        margin-bottom: 2.5rem;
+      }
+    }
+    & #tag {
+      display: grid;
+      grid-template-columns:repeat(2, 11rem );
+      
+      & span {
+        justify-content: center;
+      }
+
+    }
+  }
+
+  #projects {
+    & figure {
+      grid-template-columns: 1fr;
+      width: inherit;
+      height: inherit;
+      margin-inline: 1rem;
+
+      gap: 1rem;
+    }
+  }
+
+  & #services {
+    & figure {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      height: auto;
+      white-space: nowrap;
+
+    }
+  }
 }

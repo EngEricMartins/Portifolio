@@ -49,3 +49,12 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+@media (width <= 31.25em) {
+  :root {
+    --subtitle: 400 16px/120% var(--subtitle-font-family);
+
+    --title-lg: 500 32px/120% var(--title-font-family);
+
+  }
+}
